@@ -104,3 +104,12 @@ Eckman body is the one that controls the standards for the language and they als
 var symbolName = "value reference in memory";
 let letSymbol = "scoped value";
 const symName = "constand value in memory"; //cannot assign a new value to constant.
+
+
+console.log( document.getElementsByTagName('p') );
+
+console.log( document.getElementById('hello') );
+
+console.log( document.getElementsByClassName('pClass') );
+
+console.log(document.querySelectorAll(' p[data-content="123"], body > h1.pClass > span ' ));
